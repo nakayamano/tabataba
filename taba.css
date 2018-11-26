@@ -1,0 +1,18 @@
+body{
+    margin: 1em 1em 1em 2em;
+}
+
+h1{
+    padding: 30px 5px 5px 10px;
+    font-size: 2em;
+    color: #00ff7f;
+}
+
+div.line{
+    margin: 1em;
+    border: solid 1px #ff00ff;
+    float: left;
+    padding-bottom: 2em; 
+}
+
+
