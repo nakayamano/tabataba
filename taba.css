@@ -1,11 +1,12 @@
-body{
-    margin: 1em 1em 1em 2em;
+body {
+    font-family: "Yu Gothic",serif;
+    background: url("haikei.png") ;  
 }
 
 h1{
     padding: 30px 5px 5px 10px;
     font-size: 2em;
-    color: #00ff7f;
+    color: #608be7;
 }
 
 div.line{
