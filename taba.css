@@ -18,10 +18,12 @@ dd{
   }
 
 div.line{
-    margin: 1em;
-    border: solid 1px #ff00ff;
+    margin: 3em;
+    background: #f7d0eb6e;
+    border-radius:240px 15px 100px 15px / 15px 200px 15px 185px;
+    border: solid 5px #ff00ff;
     float: left;
-    padding-bottom: 2em; 
+    padding: 1em; 
 }
 
 clear{
