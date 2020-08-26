@@ -1,38 +1,70 @@
-body {
-    font-family: "Yu Gothic",serif;
-    background: url("haikei.png") ;  
-}
-
-h1{
-    margin: 10px;
-    padding: 30px 1px 1px 50px; /*文字の場所。上右下左にスペース開ける感じ*/
-    font-size: 3em;
-    color: #608be7
-}
-
-dt{
-    padding-left: 1em;
-}
-
-dd{
-    padding: 1em 0 .3em .5em;
+* {
+    margin: 0;
+    padding: 0;
   }
-
-div.line{
-    margin: 3em;
-    background: #f7d0eb6e;
-    border-radius:240px 15px 100px 15px / 15px 200px 15px 185px;
-    border: solid 5px #ff00ff;
-    float: left;
-    padding: 1.25em; 
-}
-
-clear{
-    clear: left;
-}
-
-footer{
-    margin-left: 10em;
+  #wrapper {
+    width: 100%;
+  }
+  header {
+    border-bottom: 2px solid #9fb7d4;
+  }
+  #toplogo {
+    width: 200px;
+    height: 40px;
+    margin: 10px auto;
+  }
+  #toplogo img {
+    width: 100%;
+    height: auto;
+  }
+  /*----------------------------------------------------------------------*/
+  #container {
+    overflow: hidden;
+    margin: 10px auto 0 auto;
+    background: #ddd;
+  }
+  #container #column1 {/*カラム1*/
+    background: #9fb7d4;
+    padding: 10px;
+  }
+    #container p,
+    #container #column1 p,
+    #container #column2 p {
+      padding: 10px;
+    }
+    #container p .txt-pc {
+      display: none;
+    }
+  /*----------------------------------------------------------------------*/
+  footer {
+    border-top: 2px solid #9fb7d4;
+  }
+  #copyright {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+  }
   
-} 
-
+  @media (min-width: 769px) {
+  header {
+    min-width: 1200px;
+  }
+  #container {
+    display: flex;
+    width: 1200px;
+  }
+  #container #column1 {/*カラム1*/
+    flex: auto;
+    order: 2;
+  }
+    #container p .txt-pc {
+      display: inline-block;
+    }
+    #container p .txt-sp {
+      display: none;
+    }
+  footer {
+    min-width: 1200px;
+  }
+  /* ** */}
+  
