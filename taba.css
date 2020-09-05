@@ -4,7 +4,7 @@
   }
   body {
     font-family: "Yu Gothic",serif;
-    background: url("haikei.png") ;  
+    background: url("haikei.png") ; 
     }
   #toplogo {
     width: 200px;
@@ -20,11 +20,19 @@
     margin: 1em;
     padding: 1em;
   }*/
-  #f-container {
+
+  f-container {
     display: flex;
-    overflow: hidden;
+ /*   overflow: hidden;
     margin: 1em;
-    background: #ffccf98a;
+    background: #a8adf78a;*/
+    flex-flow: row wrap;
+    justify-content: space-around; /*centerかどっちがいいか確認*/
+    align-content: space-around;
+  }
+  f-item{
+      align-content: auto;
+
   }
   
   /*----------------------------------------------------------------------*/
